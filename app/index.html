@@ -1,0 +1,85 @@
+<!doctype html>
+<!-- makefun-frontend-01 · EXSALA HERMES MOD · powered by Gienetic -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>make.fun — Live Bounties</title>
+<meta name="description" content="Live bounty board for make.fun — open bounties, pots, fees, rewards and builder leaderboards, straight from the public make.fun API.">
+<link rel="stylesheet" href="style.css">
+<script>window.__shotReady = false;</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="#/">make.fun<span class="live-badge">LIVE</span></a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#/" aria-current="page">Bounty board</a>
+    </nav>
+    <form class="profile-jump" id="profile-jump" role="search" autocomplete="off">
+      <input type="text" name="handle" placeholder="Handle or wallet" aria-label="Profile handle">
+      <button class="btn btn-ghost" type="submit">View profile</button>
+    </form>
+  </div>
+</header>
+
+<main id="app" aria-live="polite">
+  <div class="wrap" aria-hidden="true">
+    <section class="hero">
+      <div class="hero-stats">
+        <div class="stat"><div class="skeleton" style="height:26px;width:72px"></div><span class="stat-label">Open bounties</span></div>
+        <div class="stat"><div class="skeleton" style="height:26px;width:108px"></div><span class="stat-label">Total pot</span></div>
+        <div class="stat"><div class="skeleton" style="height:26px;width:86px"></div><span class="stat-label">Median bounty</span></div>
+        <div class="stat"><div class="skeleton" style="height:26px;width:64px"></div><span class="stat-label">Builders</span></div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <article class="card">
+        <div class="card-top"><div class="skeleton" style="height:16px;width:72%"></div><div class="skeleton" style="height:22px;width:58px"></div></div>
+        <div class="skeleton" style="height:12px;width:100%"></div>
+        <div class="skeleton" style="height:12px;width:86%"></div>
+        <div class="chips"><div class="skeleton" style="height:22px;width:64px"></div><div class="skeleton" style="height:22px;width:88px"></div></div>
+      </article>
+      <article class="card">
+        <div class="card-top"><div class="skeleton" style="height:16px;width:64%"></div><div class="skeleton" style="height:22px;width:58px"></div></div>
+        <div class="skeleton" style="height:12px;width:100%"></div>
+        <div class="skeleton" style="height:12px;width:78%"></div>
+        <div class="chips"><div class="skeleton" style="height:22px;width:72px"></div><div class="skeleton" style="height:22px;width:60px"></div></div>
+      </article>
+      <article class="card">
+        <div class="card-top"><div class="skeleton" style="height:16px;width:80%"></div><div class="skeleton" style="height:22px;width:58px"></div></div>
+        <div class="skeleton" style="height:12px;width:100%"></div>
+        <div class="skeleton" style="height:12px;width:92%"></div>
+        <div class="chips"><div class="skeleton" style="height:22px;width:56px"></div><div class="skeleton" style="height:22px;width:80px"></div></div>
+      </article>
+      <article class="card">
+        <div class="card-top"><div class="skeleton" style="height:16px;width:68%"></div><div class="skeleton" style="height:22px;width:58px"></div></div>
+        <div class="skeleton" style="height:12px;width:100%"></div>
+        <div class="skeleton" style="height:12px;width:70%"></div>
+        <div class="chips"><div class="skeleton" style="height:22px;width:76px"></div><div class="skeleton" style="height:22px;width:52px"></div></div>
+      </article>
+      <article class="card">
+        <div class="card-top"><div class="skeleton" style="height:16px;width:76%"></div><div class="skeleton" style="height:22px;width:58px"></div></div>
+        <div class="skeleton" style="height:12px;width:100%"></div>
+        <div class="skeleton" style="height:12px;width:84%"></div>
+        <div class="chips"><div class="skeleton" style="height:22px;width:60px"></div><div class="skeleton" style="height:22px;width:92px"></div></div>
+      </article>
+      <article class="card">
+        <div class="card-top"><div class="skeleton" style="height:16px;width:62%"></div><div class="skeleton" style="height:22px;width:58px"></div></div>
+        <div class="skeleton" style="height:12px;width:100%"></div>
+        <div class="skeleton" style="height:12px;width:74%"></div>
+        <div class="chips"><div class="skeleton" style="height:22px;width:68px"></div><div class="skeleton" style="height:22px;width:56px"></div></div>
+      </article>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">Live data from the make.fun public API · Pots and fees in USDC</div>
+</footer>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
